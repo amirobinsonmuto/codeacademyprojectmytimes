@@ -1,0 +1,54 @@
+.header {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    color: MediumAquamarine;
+    align-items: center;
+}
+
+.logo p {
+    margin-left: 10px;
+}
+
+.logo img {
+    margin-left: 10px;
+}
+
+.nav {
+    display: inline-flex;
+    width: 250px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.nav span {
+    color: black;
+    text-decoration: underline;
+}
+
+.column {
+    display: flex;
+}
+
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+
