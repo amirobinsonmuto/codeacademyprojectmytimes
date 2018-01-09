@@ -5,7 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 .logo {
@@ -36,6 +39,8 @@
 
 .column {
     display: flex;
+    margin: 60px auto 0px auto;
+    width: 1200px;
 }
 
 
